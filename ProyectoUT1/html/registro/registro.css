@@ -15,7 +15,7 @@ body {
 }
 
 #fondo {
-    background: url('../../ProyectoUT1/html/img/fondo.png') center/cover no-repeat;
+    background: url('../img/fondo.png') center/cover no-repeat;
     width: 100%;
     height: 100%;
     display: flex;
