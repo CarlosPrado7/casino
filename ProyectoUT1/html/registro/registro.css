@@ -102,6 +102,17 @@ form input:focus {
     outline: none;
 }
 
+a {
+    color: #FFD700; /* Cambia este valor al color que desees */
+    text-decoration: none; /* Esto elimina el subrayado por defecto */
+    font-weight: bold; /* Esto hace el texto un poco más grueso */
+}
+
+a:hover {
+    color: #00CFFF; /* Cambia el color al pasar el mouse */
+    text-decoration: underline; /* Agrega un subrayado al pasar el mouse */
+}
+
 .boton {
     display: flex;
     justify-content: center;
@@ -141,21 +152,47 @@ form input:focus {
 
 /* Estilos del modal */
 .modal {
-    display: none;
+    display: none; 
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(31, 31, 31, 0.619);
+    background-color: rgba(31, 31, 31, 0.619); 
     justify-content: center;
     align-items: center;
+    z-index: 1000; 
 }
 
 .modal-content {
-    background-color: #021D3A;
-    color:#FFD700;
-    padding: 2rem;
-    border-radius: 15px;
-    box-shadow: 0;
+    background-color: #021D3A; 
+    color: #FFD700; 
+    padding: 2rem; 
+    border-radius: 15px; 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    text-align: center; 
+}
+
+.modal-content img {
+    max-width: 100px; 
+    margin-bottom: 1rem; 
+}
+
+.modal-content h3 {
+    margin-bottom: 1rem; 
+}
+
+.close-btn {
+    background-color: #FFD700; 
+    color: #021D3A; 
+    padding: 0.5rem 1.5rem;
+    border: none; 
+    border-radius: 30px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.close-btn:hover {
+    background-color: #00CFFF; 
+    color: #fff; 
 }

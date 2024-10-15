@@ -25,18 +25,22 @@
             <div class="field-group">
                 <div class="field">
                     <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" placeholder="Name" name="nombre" required>
+                    <input type="text" id="nombre" placeholder="Nombre" name="nombre" required>
                 </div>
                 <div class="field">
                     <label for="apellidos">Apellidos:</label>
-                    <input type="text" id="apellidos" name="apellidos" placeholder="Surnames" required>
+                    <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" required>
                 </div>
             </div>
 
             <div class="field-group">
                 <div class="field">
                     <label for="nacionalidad">Nacionalidad:</label>
-                    <input type="text" id="nacionalidad" name="nacionalidad" placeholder="Nationality" required>
+                    <input type="text" id="nacionalidad" name="nacionalidad" placeholder="Nacionalidad" required>
+                </div>
+                <div class="field">
+                    <label for="numero">Numero de Telefono:</label>
+                    <input type="number" id="numero" name="numero" placeholder="Telefono" required>
                 </div>
             </div>
 
@@ -47,7 +51,7 @@
                 </div>
                 <div class="field">
                     <label for="correo">Correo Electrónico:</label>
-                    <input type="email" id="correo" name="correo" required>
+                    <input type="email" id="correo" name="correo" placeholder="Correo" required>
                 </div>
                 
             </div>
@@ -55,7 +59,7 @@
             <div class="field-group">
                 <div class="field">
                     <label for="numero">Número de Teléfono:</label>
-                    <input type="tel" id="numero" required>
+                    <input type="tel" id="numero" placeholder="Telefono" required>
                 </div>
                 <div class="field">
                     <label for="fechaNacimiento">Fecha de Nacimiento:</label>
@@ -66,11 +70,11 @@
             <div class="field-group">
                 <div class="field">
                     <label for="contra1">Contraseña:</label>
-                    <input type="password" id="contra1" required>
+                    <input type="password" id="contra1" placeholder="Contraseña" required>
                 </div>
                 <div class="field">
                     <label for="contra2">Repetir Contraseña:</label>
-                    <input type="password" id="contra2" required>
+                    <input type="password" id="contra2" placeholder="Repitir Contraseña" required>
                 </div>
             </div>
 
@@ -86,11 +90,13 @@
     <!-- Modal para mostrar los mensajes -->
     <div id="myModal" class="modal">
         <div class="modal-content">
-            <p id="modalMessage"></p>
+            <img src="../img/logoDefinitivo.png">
+            <h3>Bienvenidos a The Golden Depths</h3>
+            <p id="modalMessage">¡¡¡Registro realizado con exito!!!</p>
             <button id="closeModalBtn" class="close-btn">Cerrar</button>
         </div>
     </div>
 
-    <script src="javaScript/funcionalidades.js"></script>
+    <script src="registro/funcionalidades.js"></script>
 </body>
 </html>

@@ -107,6 +107,17 @@ body {
     background-color: #FFD700;         
 }
 
+a {
+    color: #FFD700; 
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+a:hover {
+    color: #00CFFF;
+    text-decoration: underline;
+}
+
 
 @media (max-width: 768px) {
     #titulo { /*Deja ese maximo*/
